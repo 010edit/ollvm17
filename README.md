@@ -1,3 +1,10 @@
+修改备注: 添加了 llvm_mingw  一起打包到releases中
+
+llvm_mingw 使用的版本是：
+https://github.com/mstorsjo/llvm-mingw/releases/download/20231128/llvm-mingw-20231128-msvcrt-x86_64.zip
+
+删除了其中bin所有文件，替换为当前项目 release 的 静态编译版本
+
 # 前言
 项目大致内容与我之前发布的[OLLVM16](https://github.com/DreamSoule/ollvm16)区别不大, 仅对LLVM17做了兼容性修复<br>
 感兴趣的可以自己下载之前项目对比查看修改部分
